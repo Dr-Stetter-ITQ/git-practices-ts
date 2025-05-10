@@ -17,7 +17,7 @@ Set-Content -Path "01-first-steps\hello.ts" -Value 'console.log("Hello World!");
 
 # Commit and push changes
 git add 01-first-steps/hello.ts
-git commit -m "reset excersice"
+git commit -m "reset excersice 01"
 git push 
 
 Write-Host "Done!"
