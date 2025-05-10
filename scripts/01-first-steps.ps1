@@ -11,7 +11,7 @@ git clean -fd
 
 # Create a the excersice folder
 New-Item -ItemType Directory -Path "01-first-steps" | Out-Null
-Set-Content -Path "01-first-steps\hello.ts" -Value 'console.log("Hola mundo");'
+Set-Content -Path "01-first-steps\hello.ts" -Value 'console.log("Hello World!");'
 
 # Commit and push changes
 git add 01-first-steps/hello.ts
