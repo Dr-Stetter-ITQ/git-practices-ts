@@ -10,7 +10,9 @@ git reset --hard HEAD
 git clean -fd
 
 # Create a the excersice folder
-New-Item -ItemType Directory -Path "01-first-steps" | Out-Null
+if (-Not (Test-Path "01-first-steps")) {
+    New-Item -ItemType Directory -Path "01-first-steps" | Out-Null
+}
 Set-Content -Path "01-first-steps\hello.ts" -Value 'console.log("Hello World!");'
 
 # Commit and push changes
