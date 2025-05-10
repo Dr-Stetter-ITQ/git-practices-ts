@@ -31,4 +31,4 @@ Somo conflicts can not be auto resolved, you will probably need to resolved manu
 
 
 ### You made something wrong?
-You can restart this exercise by running `.\scripts\03-branching.ps1`.
+You can restart this exercise by running `.\scripts\04-merge-conflicts.ps1`.
