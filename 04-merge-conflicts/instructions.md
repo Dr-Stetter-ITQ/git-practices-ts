@@ -16,7 +16,9 @@ I (@Reyes) have created an animals class on the `master` branch, this is located
 - You must manually edit the file to build a final Animal class that makes sense technically and semanticall
 
 ## Considerations
-Everything that Reyes have done is not right. This is so that you can choose changes.
+Everything that Reyes have done is not perfect. This is so that you can choose changes.
+Consider creating `calculateAge` and `calculateHumanAge` to provoke merge conflicts!
+Somo conflicts can not be auto resolved, you will probably need to resolved manually.
 
 ## Steps
 1. Create a new branch from `master` called `feature/animals-solution-by-yourname`.
