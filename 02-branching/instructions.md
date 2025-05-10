@@ -1,7 +1,7 @@
 # Excesice 02 - Branching
 
 ## Goal
-Learn how to work with branches: create, switch, merge, and resolve simple conflicts.
+Learn how to work with branches and understand how branches can be isolated.
 
 ## Steps
 
