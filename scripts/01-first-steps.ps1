@@ -1,4 +1,4 @@
-Write-Host "Setting back excersice 01-first-step"
+Write-Host "Setting back exercise 01-first-step"
 
 # Navigate to root repo
 Set-Location -Path (Split-Path -Parent $MyInvocation.MyCommand.Definition)
@@ -17,7 +17,7 @@ Set-Content -Path "01-first-steps\hello.ts" -Value 'console.log("Hello World!");
 
 # Commit and push changes
 git add 01-first-steps/hello.ts
-git commit -m "reset excersice 01"
+git commit -m "reset exercise 01"
 git push 
 
 Write-Host "Done!"

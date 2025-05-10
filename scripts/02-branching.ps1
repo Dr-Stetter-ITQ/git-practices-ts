@@ -1,4 +1,4 @@
-Write-Host "Setting back excersice 02-branching"
+Write-Host "Setting back exercise 02-branching"
 
 # Navigate to root repo
 Set-Location -Path (Split-Path -Parent $MyInvocation.MyCommand.Definition)
@@ -24,7 +24,7 @@ Set-Content -Path "02-branching\salute.ts" -Value 'console.log("Hello from main 
 
 # Commit and push changes
 git add 02-branching/salute.ts
-git commit -m "reset excersice 02"
+git commit -m "reset exercise 02"
 git push 
 
 Write-Host "Done!"

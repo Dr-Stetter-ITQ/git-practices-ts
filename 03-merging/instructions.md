@@ -24,4 +24,4 @@ Your job is to **fix the class in a feature branch** and **merge it back into `m
 
 
 ### You made something wrong?
-You can restart this exercise by running `.\scripts\03-branching.ps1`.
+You can restart this exercise by running `.\scripts\03-merging.ps1`.
