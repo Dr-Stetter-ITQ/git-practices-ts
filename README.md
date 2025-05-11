@@ -1,7 +1,11 @@
 # git-practices-ts
 This repository contains a collection of practical Git activities designed to teach Git fundamentals using TypeScript code samples
 
+# Fork and clone
 To clone this repo install Git, open a terminal and run the following command:
+```bash
+git clone <PATH>
 ```
-git clone https://github.com/ITQ-Reyes/git-practices-ts.git
-```
+
+# Excersice
+Complete the 4 planned scenarios!
